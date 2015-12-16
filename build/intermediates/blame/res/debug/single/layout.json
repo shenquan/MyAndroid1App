@@ -64,6 +64,10 @@
         "source": "C:\\Android-HSQ\\MyApplication1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\abc_list_menu_item_layout.xml"
     },
     {
+        "merged": "C:\\Android-HSQ\\MyApplication1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ball.xml",
+        "source": "C:\\Android-HSQ\\MyApplication1\\app\\src\\main\\res\\layout\\ball.xml"
+    },
+    {
         "merged": "C:\\Android-HSQ\\MyApplication1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
         "source": "C:\\Android-HSQ\\MyApplication1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\abc_popup_menu_item_layout.xml"
     },

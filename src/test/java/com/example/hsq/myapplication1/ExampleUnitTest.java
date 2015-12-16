@@ -1,4 +1,4 @@
-package com.example.hsq.myapplication1;
+package com.example.hsq.app1;
 
 import org.junit.Test;
 

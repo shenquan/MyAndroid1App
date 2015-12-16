@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.hsq.myapplication1"
+    package="com.example.hsq.app1"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -17,13 +17,27 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
 
-        <!-- activity -->
+        <!-- activity1 -->
         <activity
-            android:name="com.example.hsq.myapplication1.MainActivity"
+            android:name="com.example.hsq.app1.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
+                <!-- //指定该Activity的类为程序的入口 -->
+                <action android:name="android.intent.action.MAIN" />
+                <!-- //指定加载该应用时运行该Activity -->
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- 若删除这两个应用中的任何一个，则另一个也会随之删除 -->
+        <activity
+            android:name="ui.CustomViewActivity"
+            android:label="HSQ2" >
+            <intent-filter>
+
+                <!-- //指定该Activity的类为程序的入口 -->
+                <action android:name="android.intent.action.MAIN" />
+                <!-- //指定加载该应用时运行该Activity -->
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
